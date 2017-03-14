@@ -1,0 +1,35 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-badge": {
+            "PACKAGE_NAME": "com.iadbox.app"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.iadbox.app"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.iadbox.app"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.iadbox.app"
+        },
+        "phonegap-plugin-push": {
+            "SENDER_ID": "XXXXXXX",
+            "PACKAGE_NAME": "com.iadbox.app"
+        },
+        "iadbox-cordova-plugin": {
+            "PACKAGE_NAME": "com.iadbox.app"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-app-event": {
+            "PACKAGE_NAME": "com.iadbox.app"
+        }
+    }
+}
