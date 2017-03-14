@@ -19,11 +19,11 @@
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.iadbox.app"
         },
-        "iadbox-cordova-plugin": {
-            "PACKAGE_NAME": "com.iadbox.app"
-        },
         "phonegap-plugin-push": {
             "SENDER_ID": "763715496070",
+            "PACKAGE_NAME": "com.iadbox.app"
+        },
+        "iadbox-cordova-plugin": {
             "PACKAGE_NAME": "com.iadbox.app"
         }
     },

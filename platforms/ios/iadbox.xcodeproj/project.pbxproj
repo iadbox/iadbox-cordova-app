@@ -5,35 +5,36 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1F7F2F56BE0F40138396A263 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0634E27A9BB64533B24C2353 /* AddressBook.framework */; };
-		1FD497817C79359B69401332 /* libPods-iadbox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83DE3BCFB1A5A2089C3C04FF /* libPods-iadbox.a */; };
 		2DD6ECDC02F14353AFFC18E3 /* APPBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 61822E80A199425687C86EA8 /* APPBadge.m */; };
-		301BF552109A68D80062928A /* ReferenceProxy in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
+		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
 		3DA534731CBC4EEDBCBF59DB /* CDVPlugin+APPAppEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBE5189C1DF48E0AD560AE0 /* CDVPlugin+APPAppEvent.m */; };
+		3DD9A32F9FA14BC49143838F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E85BC01CA3D4983B3AFCDF5 /* QuartzCore.framework */; };
 		4561B7D2F18C43638FA97C8A /* UIApplication+APPBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = AC31C7224B4941F5BD91BC63 /* UIApplication+APPBadge.m */; };
+		61FC7E23570E4BA3B6FCE340 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB1C2224A4C481E9C4D7018 /* CoreLocation.framework */; };
 		641EFBDDAC3143FFB3EC4BD1 /* PushPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = B72A088E507241A4AD1B2576 /* PushPlugin.m */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
+		6C1E7B48CC624500A94F8F8B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC247A92C00467BB4510F3F /* AVFoundation.framework */; };
 		6E4A0417635B4462BC04ECBB /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 70B6893932F44CB28FC40F19 /* libsqlite3.tbd */; };
+		710056481E784BFA00B2793D /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 710056471E784BFA00B2793D /* Entitlements.plist */; };
+		8C9B9519294E43E986FA0C0A /* IadboxPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 031374EB63004732939376C3 /* IadboxPlugin.m */; };
 		8E4A0DDCE8984E18A0AB78A8 /* CDVReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B1F99113E44A4BA2D14E62 /* CDVReachability.m */; };
 		9E399FB1E5F249F19B27AA52 /* AppDelegate+APPAppEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D4A9F0F448486D993446AF /* AppDelegate+APPAppEvent.m */; };
+		AD015E07E1DD4F888173B65B /* libQustodian_1.5.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14FA0C597F9E47B89FF38CEB /* libQustodian_1.5.2.a */; };
+		B14BDBAEEAE34BDDB56AEAA0 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8962C0C69B6A478BAF742B23 /* CoreTelephony.framework */; };
+		C61A997068AB47E3AB7EE225 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BB17A7410C74D1693FD1BE2 /* AdSupport.framework */; };
 		D3689F4118CF4406B23BB2A2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 493E0F153E5144D0A598CA57 /* libz.tbd */; };
 		D3AAD7DBF2B344949A27D3E6 /* CDVConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0F17BA110244A0949B0D7A /* CDVConnection.m */; };
+		DED6AE08BE374177BB5341E3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA214854FE5E40F6A46E5E94 /* SystemConfiguration.framework */; };
 		E5F29359FC6448A18B09E550 /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 97306C4F51324DFCA8AE07F9 /* CDVLogger.m */; };
 		ED9C0CBAA50D466A89BBA4C6 /* AppDelegate+notification.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C94D18BDC8F4263B8A19EB6 /* AppDelegate+notification.m */; };
-		6F8178CB07584722A38B9202 /* libQustodian_1.5.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42A57F790A5646B5B74CD116 /* libQustodian_1.5.2.a */; };
-		147AC45CB18F4A51A8B6406F /* IadboxPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA7439991714D1A9E9D55E5 /* IadboxPlugin.m */; };
-		FED0023442EA4307969BDAB4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEAA7DC25DA64795AD64E6EF /* AVFoundation.framework */; };
-		3364C1DF8DC445178286572B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 747C065DD89D4DB78205DCAE /* SystemConfiguration.framework */; };
-		FC092802216D4D4DA2851B58 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC2DA77C0AAB43E4BD50D8B8 /* CoreLocation.framework */; };
-		AF8164EE688B4D4BB499EA40 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C75522310EB44B389622884 /* QuartzCore.framework */; };
-		606321118DEF40CAA05ADC35 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07550E9A6DB24CCABBDD929B /* CoreTelephony.framework */; };
-		CE5B0929439C4CC58049F0F8 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A14EB0BD85F4E6B9A1771B3 /* AdSupport.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,8 +57,11 @@
 /* Begin PBXFileReference section */
 		013CD884B03F4406BC6026DC /* CDVReachability.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVReachability.h; path = "cordova-plugin-network-information/CDVReachability.h"; sourceTree = "<group>"; };
 		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = iadbox/Images.xcassets; sourceTree = SOURCE_ROOT; };
-		0634E27A9BB64533B24C2353 /* AddressBook.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		031374EB63004732939376C3 /* IadboxPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = IadboxPlugin.m; path = "iadbox-cordova-plugin/IadboxPlugin.m"; sourceTree = "<group>"; };
+		0634E27A9BB64533B24C2353 /* AddressBook.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		0BB17A7410C74D1693FD1BE2 /* AdSupport.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		12CAB7DAFFC1423194AB165D /* UIApplication+APPBadge.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "UIApplication+APPBadge.h"; path = "cordova-plugin-badge/UIApplication+APPBadge.h"; sourceTree = "<group>"; };
+		14FA0C597F9E47B89FF38CEB /* libQustodian_1.5.2.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = libQustodian_1.5.2.a; path = "iadbox/Plugins/iadbox-cordova-plugin/libQustodian_1.5.2.a"; sourceTree = "<group>"; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* iadbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iadbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,17 +77,24 @@
 		32CA4F630368D1EE00C91783 /* iadbox-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iadbox-Prefix.pch"; sourceTree = "<group>"; };
 		37913A43FAFD4E65920CBFD3 /* APPBadge.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = APPBadge.h; path = "cordova-plugin-badge/APPBadge.h"; sourceTree = "<group>"; };
 		45933BE46F194AF1B9589701 /* CDVPlugin+APPAppEvent.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "CDVPlugin+APPAppEvent.h"; path = "cordova-plugin-app-event/CDVPlugin+APPAppEvent.h"; sourceTree = "<group>"; };
-		493E0F153E5144D0A598CA57 /* libz.tbd */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		493E0F153E5144D0A598CA57 /* libz.tbd */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		61822E80A199425687C86EA8 /* APPBadge.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = APPBadge.m; path = "cordova-plugin-badge/APPBadge.m"; sourceTree = "<group>"; };
 		64BBA46374A649A8A9B7BCFA /* APPAppEventDelegate.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = APPAppEventDelegate.h; path = "cordova-plugin-app-event/APPAppEventDelegate.h"; sourceTree = "<group>"; };
 		6A0F17BA110244A0949B0D7A /* CDVConnection.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVConnection.m; path = "cordova-plugin-network-information/CDVConnection.m"; sourceTree = "<group>"; };
 		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = iadbox/CDVLaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
-		70B6893932F44CB28FC40F19 /* libsqlite3.tbd */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		6CB1C2224A4C481E9C4D7018 /* CoreLocation.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		70B6893932F44CB28FC40F19 /* libsqlite3.tbd */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		710056461E784B9F00B2793D /* iadbox.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = iadbox.entitlements; path = iadbox/iadbox.entitlements; sourceTree = "<group>"; };
+		710056471E784BFA00B2793D /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Entitlements.plist; sourceTree = "<group>"; };
+		75F5971EFA2A4DE39AC35CA0 /* Qustodian.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = Qustodian.h; path = "iadbox-cordova-plugin/Qustodian.h"; sourceTree = "<group>"; };
+		7E85BC01CA3D4983B3AFCDF5 /* QuartzCore.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		83DE3BCFB1A5A2089C3C04FF /* libPods-iadbox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iadbox.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		863ABAEEF37E4D788C57A30E /* AppDelegate+notification.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "AppDelegate+notification.h"; path = "phonegap-plugin-push/AppDelegate+notification.h"; sourceTree = "<group>"; };
+		8962C0C69B6A478BAF742B23 /* CoreTelephony.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* iadbox-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "iadbox-Info.plist"; path = "iadbox/iadbox-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
 		97306C4F51324DFCA8AE07F9 /* CDVLogger.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVLogger.m; path = "cordova-plugin-console/CDVLogger.m"; sourceTree = "<group>"; };
 		9C94D18BDC8F4263B8A19EB6 /* AppDelegate+notification.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate+notification.m"; path = "phonegap-plugin-push/AppDelegate+notification.m"; sourceTree = "<group>"; };
+		9EC247A92C00467BB4510F3F /* AVFoundation.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		AC31C7224B4941F5BD91BC63 /* UIApplication+APPBadge.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+APPBadge.m"; path = "cordova-plugin-badge/UIApplication+APPBadge.m"; sourceTree = "<group>"; };
 		AFBE5189C1DF48E0AD560AE0 /* CDVPlugin+APPAppEvent.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "CDVPlugin+APPAppEvent.m"; path = "cordova-plugin-app-event/CDVPlugin+APPAppEvent.m"; sourceTree = "<group>"; };
 		B72A088E507241A4AD1B2576 /* PushPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = PushPlugin.m; path = "phonegap-plugin-push/PushPlugin.m"; sourceTree = "<group>"; };
@@ -92,21 +103,13 @@
 		C52A398077C14E85A2EE0EFC /* PushPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = PushPlugin.h; path = "phonegap-plugin-push/PushPlugin.h"; sourceTree = "<group>"; };
 		C69AF1A5E51645F5B2341DFA /* CDVConnection.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVConnection.h; path = "cordova-plugin-network-information/CDVConnection.h"; sourceTree = "<group>"; };
 		C7B1F99113E44A4BA2D14E62 /* CDVReachability.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVReachability.m; path = "cordova-plugin-network-information/CDVReachability.m"; sourceTree = "<group>"; };
+		DDA844B99F624A53BAF1F0C9 /* IadboxPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = IadboxPlugin.h; path = "iadbox-cordova-plugin/IadboxPlugin.h"; sourceTree = "<group>"; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
-		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = iadbox/config.xml; sourceTree = "<group>"; };
+		FA214854FE5E40F6A46E5E94 /* SystemConfiguration.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		FC6AFFDDE0C042C18CCF2715 /* AppDelegate+APPAppEvent.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "AppDelegate+APPAppEvent.h"; path = "cordova-plugin-app-event/AppDelegate+APPAppEvent.h"; sourceTree = "<group>"; };
-		42A57F790A5646B5B74CD116 /* libQustodian_1.5.2.a */ = {isa = PBXFileReference; name = "libQustodian_1.5.2.a"; path = "iadbox/Plugins/iadbox-cordova-plugin/libQustodian_1.5.2.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		0BA7439991714D1A9E9D55E5 /* IadboxPlugin.m */ = {isa = PBXFileReference; name = "IadboxPlugin.m"; path = "iadbox-cordova-plugin/IadboxPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		9FB95EC7946D44FB92AB8BDA /* Qustodian.h */ = {isa = PBXFileReference; name = "Qustodian.h"; path = "iadbox-cordova-plugin/Qustodian.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		9A3998631D72463C9230E5AB /* IadboxPlugin.h */ = {isa = PBXFileReference; name = "IadboxPlugin.h"; path = "iadbox-cordova-plugin/IadboxPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		AEAA7DC25DA64795AD64E6EF /* AVFoundation.framework */ = {isa = PBXFileReference; name = "AVFoundation.framework"; path = "System/Library/Frameworks/AVFoundation.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		747C065DD89D4DB78205DCAE /* SystemConfiguration.framework */ = {isa = PBXFileReference; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		AC2DA77C0AAB43E4BD50D8B8 /* CoreLocation.framework */ = {isa = PBXFileReference; name = "CoreLocation.framework"; path = "System/Library/Frameworks/CoreLocation.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		7C75522310EB44B389622884 /* QuartzCore.framework */ = {isa = PBXFileReference; name = "QuartzCore.framework"; path = "System/Library/Frameworks/QuartzCore.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		07550E9A6DB24CCABBDD929B /* CoreTelephony.framework */ = {isa = PBXFileReference; name = "CoreTelephony.framework"; path = "System/Library/Frameworks/CoreTelephony.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		4A14EB0BD85F4E6B9A1771B3 /* AdSupport.framework */ = {isa = PBXFileReference; name = "AdSupport.framework"; path = "System/Library/Frameworks/AdSupport.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,18 +117,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				301BF552109A68D80062928A /* ReferenceProxy in Frameworks */,
+				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
 				1F7F2F56BE0F40138396A263 /* AddressBook.framework in Frameworks */,
 				6E4A0417635B4462BC04ECBB /* libsqlite3.tbd in Frameworks */,
 				D3689F4118CF4406B23BB2A2 /* libz.tbd in Frameworks */,
-				1FD497817C79359B69401332 /* libPods-iadbox.a in Frameworks */,
-				6F8178CB07584722A38B9202 /* libQustodian_1.5.2.a in Frameworks */,
-				FED0023442EA4307969BDAB4 /* AVFoundation.framework in Frameworks */,
-				3364C1DF8DC445178286572B /* SystemConfiguration.framework in Frameworks */,
-				FC092802216D4D4DA2851B58 /* CoreLocation.framework in Frameworks */,
-				AF8164EE688B4D4BB499EA40 /* QuartzCore.framework in Frameworks */,
-				606321118DEF40CAA05ADC35 /* CoreTelephony.framework in Frameworks */,
-				CE5B0929439C4CC58049F0F8 /* AdSupport.framework in Frameworks */,
+				AD015E07E1DD4F888173B65B /* libQustodian_1.5.2.a in Frameworks */,
+				6C1E7B48CC624500A94F8F8B /* AVFoundation.framework in Frameworks */,
+				DED6AE08BE374177BB5341E3 /* SystemConfiguration.framework in Frameworks */,
+				61FC7E23570E4BA3B6FCE340 /* CoreLocation.framework in Frameworks */,
+				3DD9A32F9FA14BC49143838F /* QuartzCore.framework in Frameworks */,
+				B14BDBAEEAE34BDDB56AEAA0 /* CoreTelephony.framework in Frameworks */,
+				C61A997068AB47E3AB7EE225 /* AdSupport.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,9 +162,11 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		29B97314FDCFA39411CA2CEA = {
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				710056471E784BFA00B2793D /* Entitlements.plist */,
+				710056461E784B9F00B2793D /* iadbox.entitlements */,
 				EB87FDF41871DAF40020F90C /* config.xml */,
 				EB87FDF31871DA8E0020F90C /* www */,
 				EB87FDF11871DA420020F90C /* Staging */,
@@ -208,13 +212,13 @@
 				70B6893932F44CB28FC40F19 /* libsqlite3.tbd */,
 				493E0F153E5144D0A598CA57 /* libz.tbd */,
 				83DE3BCFB1A5A2089C3C04FF /* libPods-iadbox.a */,
-				42A57F790A5646B5B74CD116 /* libQustodian_1.5.2.a */,
-				AEAA7DC25DA64795AD64E6EF /* AVFoundation.framework */,
-				747C065DD89D4DB78205DCAE /* SystemConfiguration.framework */,
-				AC2DA77C0AAB43E4BD50D8B8 /* CoreLocation.framework */,
-				7C75522310EB44B389622884 /* QuartzCore.framework */,
-				07550E9A6DB24CCABBDD929B /* CoreTelephony.framework */,
-				4A14EB0BD85F4E6B9A1771B3 /* AdSupport.framework */,
+				14FA0C597F9E47B89FF38CEB /* libQustodian_1.5.2.a */,
+				9EC247A92C00467BB4510F3F /* AVFoundation.framework */,
+				FA214854FE5E40F6A46E5E94 /* SystemConfiguration.framework */,
+				6CB1C2224A4C481E9C4D7018 /* CoreLocation.framework */,
+				7E85BC01CA3D4983B3AFCDF5 /* QuartzCore.framework */,
+				8962C0C69B6A478BAF742B23 /* CoreTelephony.framework */,
+				0BB17A7410C74D1693FD1BE2 /* AdSupport.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -259,9 +263,9 @@
 				B72A088E507241A4AD1B2576 /* PushPlugin.m */,
 				863ABAEEF37E4D788C57A30E /* AppDelegate+notification.h */,
 				C52A398077C14E85A2EE0EFC /* PushPlugin.h */,
-				0BA7439991714D1A9E9D55E5 /* IadboxPlugin.m */,
-				9FB95EC7946D44FB92AB8BDA /* Qustodian.h */,
-				9A3998631D72463C9230E5AB /* IadboxPlugin.h */,
+				031374EB63004732939376C3 /* IadboxPlugin.m */,
+				75F5971EFA2A4DE39AC35CA0 /* Qustodian.h */,
+				DDA844B99F624A53BAF1F0C9 /* IadboxPlugin.h */,
 			);
 			name = Plugins;
 			path = iadbox/Plugins;
@@ -308,12 +312,26 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 510;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = B8RNE63JJX;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iadbox" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
-			mainGroup = 29B97314FDCFA39411CA2CEA;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			productRefGroup = 19C28FACFE9D520D11CA2CBB /* Products */;
 			projectDirPath = "";
 			projectReferences = (
@@ -344,6 +362,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				710056481E784BFA00B2793D /* Entitlements.plist in Resources */,
 				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
 				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
 				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
@@ -432,7 +451,7 @@
 				8E4A0DDCE8984E18A0AB78A8 /* CDVReachability.m in Sources */,
 				ED9C0CBAA50D466A89BBA4C6 /* AppDelegate+notification.m in Sources */,
 				641EFBDDAC3143FFB3EC4BD1 /* PushPlugin.m in Sources */,
-				147AC45CB18F4A51A8B6406F /* IadboxPlugin.m in Sources */,
+				8C9B9519294E43E986FA0C0A /* IadboxPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,20 +475,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = iadbox/iadbox.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"iadbox/Plugins/cordova-plugin-firebase\"",
-					"\"iadbox/Plugins/cordova-plugin-firebase\"",
-					"\"iadbox/Plugins/cordova-plugin-firebase\"",
-					"\"iadbox/Plugins/cordova-plugin-firebase\"",
-					"\"iadbox/Plugins/cordova-plugin-firebase\"",
-					"\"iadbox/Plugins/cordova-plugin-firebase\"",
-					"\"iadbox/Plugins/cordova-plugin-firebase\"",
-					"\"iadbox/Plugins/cordova-plugin-firebase\"",
-					"\"iadbox/Plugins/cordova-plugin-firebase\"",
-					"\"iadbox/Plugins/cordova-plugin-firebase\"",
-				);
+				DEVELOPMENT_TEAM = B8RNE63JJX;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -483,6 +493,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/iadbox/Plugins/iadbox-cordova-plugin\"",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iadbox.cordova-app";
 				PRODUCT_NAME = iadbox;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -497,20 +508,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = iadbox/iadbox.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"iadbox/Plugins/cordova-plugin-firebase\"",
-					"\"iadbox/Plugins/cordova-plugin-firebase\"",
-					"\"iadbox/Plugins/cordova-plugin-firebase\"",
-					"\"iadbox/Plugins/cordova-plugin-firebase\"",
-					"\"iadbox/Plugins/cordova-plugin-firebase\"",
-					"\"iadbox/Plugins/cordova-plugin-firebase\"",
-					"\"iadbox/Plugins/cordova-plugin-firebase\"",
-					"\"iadbox/Plugins/cordova-plugin-firebase\"",
-					"\"iadbox/Plugins/cordova-plugin-firebase\"",
-					"\"iadbox/Plugins/cordova-plugin-firebase\"",
-				);
+				DEVELOPMENT_TEAM = B8RNE63JJX;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iadbox/iadbox-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
@@ -522,6 +524,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/iadbox/Plugins/iadbox-cordova-plugin\"",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iadbox.cordova-app";
 				PRODUCT_NAME = iadbox;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

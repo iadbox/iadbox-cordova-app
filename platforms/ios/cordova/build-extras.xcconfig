@@ -1,3 +1,4 @@
 CODE_SIGN_IDENTITY = iPhone Developer
 CODE_SIGN_IDENTITY[sdk=iphoneos*] = iPhone Developer
 PROVISIONING_PROFILE = Automatic
+DEVELOPMENT_TEAM = B8RNE63JJX

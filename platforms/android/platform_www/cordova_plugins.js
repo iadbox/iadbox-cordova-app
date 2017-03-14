@@ -27,19 +27,19 @@ module.exports = [
         ]
     },
     {
-        "id": "iadbox-cordova-plugin.iadbox",
-        "file": "plugins/iadbox-cordova-plugin/www/iadbox.js",
-        "pluginId": "iadbox-cordova-plugin",
-        "clobbers": [
-            "window.plugins.iadbox"
-        ]
-    },
-    {
         "id": "phonegap-plugin-push.PushNotification",
         "file": "plugins/phonegap-plugin-push/www/push.js",
         "pluginId": "phonegap-plugin-push",
         "clobbers": [
             "PushNotification"
+        ]
+    },
+    {
+        "id": "iadbox-cordova-plugin.iadbox",
+        "file": "plugins/iadbox-cordova-plugin/www/iadbox.js",
+        "pluginId": "iadbox-cordova-plugin",
+        "clobbers": [
+            "window.plugins.iadbox"
         ]
     }
 ];
@@ -51,8 +51,8 @@ module.exports.metadata =
     "cordova-plugin-console": "1.0.5",
     "cordova-plugin-network-information": "1.3.1",
     "cordova-plugin-whitelist": "1.3.1",
-    "iadbox-cordova-plugin": "1.0.3",
-    "phonegap-plugin-push": "1.9.4"
+    "phonegap-plugin-push": "1.9.4",
+    "iadbox-cordova-plugin": "1.0.3"
 };
 // BOTTOM OF METADATA
 });
