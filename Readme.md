@@ -44,6 +44,9 @@ Once everything is set up, you need to create your own icon and splash images. A
 $ npm install splashicon-generator -g
 $ splashicon-generator
 $ cp -r res/* platforms/android/res
+$ cp res/screens/android/screen-mdpi-portrait.png www/img/logo_200.png && cp res/screens/android/screen-mdpi-portrait.png www/img/logo_320.png && cp res/screens/android/screen-hdpi-portrait.png www/img/logo_480.png && cp res/screens/android/screen-xhdpi-portrait.png www/img/logo_720.png && cp res/screens/android/screen-xxhdpi-portrait.png www/img/logo_960.png && cp res/screens/android/screen-xxxhdpi-portrait.png www/img/logo_1280.png
 ```
+
+Change the affiliate_id in www/js/index.js and ...
 
 And that's all! You can now build and test your app.
