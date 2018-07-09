@@ -23,7 +23,7 @@ $ cordova platform rm ios
 $ cordova platform add ios
 
 $ cordova platform rm android
-$ cordova platform add android
+$ cordova platform add android@6.2.2
 ```
 
 After this command you will receive an error while trying to install iadbox-cordova-plugin. So you will need to install it manually with the --force parameter.
